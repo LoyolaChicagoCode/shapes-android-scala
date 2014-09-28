@@ -10,10 +10,13 @@ simple drawing. Its learning objectives are:
       [pfn's well-maintained plugin](https://github.com/pfn/android-sdk-plugin)
     - using IntelliJ IDEA (optional)
 - Simple graphical drawing (output-only) in Android
-- Basic design patterns and their purpose
+- Basic object-oriented design patterns and their purpose
     - Composite pattern
     - Decorator pattern
     - Visitor pattern
+- Corresponding Scala idioms
+    - case classes implementing a common trait
+    - recursive functions with pattern matching on the case classes
 - Testing techniques
     - behavior-driven design (BDD)
     - mock-based unit testing of objects with dependencies
