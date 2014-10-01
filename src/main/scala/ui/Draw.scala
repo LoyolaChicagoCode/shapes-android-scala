@@ -7,9 +7,7 @@ import android.graphics.Paint.Style
 
 import model._
 
-/**
- * A Visitor for drawing a shape to an Android canvas.
- */
+/** A Visitor for drawing a shape to an Android canvas. */
 class Draw(canvas: Canvas, paint: Paint) {
 
   paint.setStyle(Style.STROKE)

@@ -1,5 +1,6 @@
 package edu.luc.etl.cs313.scala.shapes.model
 
+/** A common abstraction for graphical shapes. */
 sealed trait Shape
 
 /** A circle with a specified radius. */
@@ -10,7 +11,7 @@ case class Rectangle(width: Int, height: Int) extends Shape
 
 /**
  * A decorator for specifying a shape's location.
- * This cannot be a case class because we want to inherit from it.
+ * In Scala, this cannot be a case class because we want to inherit from it.
  */
 class Location(val x: Int, val y: Int, val child: Shape) extends Shape {
   require(child != null, "null child in " + getClass.getSimpleName)
@@ -19,6 +20,7 @@ class Location(val x: Int, val y: Int, val child: Shape) extends Shape {
     case _ => false
   }
 }
+/** The companion object that allows us to use this class like a case class. */
 object Location {
   def apply(x: Int, y: Int, child: Shape) = new Location(x, y, child)
   def unapply(l: Location) = Some((l.x, l.y, l.child))
@@ -26,12 +28,13 @@ object Location {
 
 /**
  * A composite for grouping edu.luc.etl.cs313.android.shapes.model.
- * This cannot be a case class because we want to inherit from it.
+ * In Scala, this cannot be a case class because we want to inherit from it.
  */
 class Group(val children: Shape*) extends Shape {
   require(children != null, "null children in " + getClass.getSimpleName)
   require(! children.contains(null), "null child in " + getClass.getSimpleName)
 }
+/** The companion object that allows us to use this class like a case class. */
 object Group {
   def apply(children: Shape*) = new Group(children: _*)
   def unapply(g: Group) = Some(g.children)

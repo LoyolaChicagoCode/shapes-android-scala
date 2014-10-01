@@ -2,9 +2,7 @@ package edu.luc.etl.cs313.scala.shapes.model
 
 import scala.language.postfixOps
 
-/**
- * A visitor to compute the number of basic shapes in a (possibly complex) shape.
- */
+/** A visitor to compute the number of basic shapes in a (possibly complex) shape. */
 object size {
 
   // TODO entirely your job
