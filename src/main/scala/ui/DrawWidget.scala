@@ -8,9 +8,7 @@ import android.graphics.{Color, Canvas, Paint}
 
 import model._
 
-/**
- * A custom widget for drawing some lines.
- */
+/** A custom widget for drawing some lines. */
 class DrawWidget(context: Context) extends View(context) {
 
   def this(context: Context, attrs: AttributeSet, defStyle: Int) { this(context) }
