@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lucoodevcourse/shapes-android-scala.svg?branch=master)](https://travis-ci.org/lucoodevcourse/shapes-android-scala)
+
 # Learning Objectives
 
 This example is intended as a starting point for Android apps involving 
