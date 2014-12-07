@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/lucoodevcourse/shapes-android-scala.svg?branch=master)](https://travis-ci.org/lucoodevcourse/shapes-android-scala) 
-[![Coverage Status](https://img.shields.io/coveralls/lucoodevcourse/shapes-android-scala.svg)](https://coveralls.io/r/lucoodevcourse/shapes-android-scala) 
+[![Build Status](https://travis-ci.org/LoyolaChicagoCode/shapes-android-scala.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/shapes-android-scala) 
+[![Coverage Status](https://img.shields.io/coveralls/LoyolaChicagoCode/shapes-android-scala.svg)](https://coveralls.io/r/LoyolaChicagoCode/shapes-android-scala) 
 
 # Learning Objectives
 
