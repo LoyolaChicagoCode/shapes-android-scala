@@ -17,7 +17,7 @@ import fixtures._
 
 /**
  * Mock-based test for the Draw visitor.
- * The subject-under-test (SUT), Draw, has two dependencies,
+ * The system-under-test (SUT), Draw, has two dependencies,
  * which show up as constructor arguments:
  * a canvas and a paint object. Because Draw cannot function without its
  * dependencies, we wonder how to unit-test Draw in isolation. The solution
